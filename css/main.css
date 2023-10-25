@@ -36,3 +36,50 @@ header {
     text-align: left;
     cursor: pointer;
 }
+
+.characters li h5{
+    color: white;
+    padding: 12px,8px;
+}
+
+.characters li a{
+    text-decoration: none;
+}
+
+/*------*/
+
+.sprite{
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/marvelSprites.jpg');
+}
+
+#carol{
+    background-position: -150px 0;
+}
+
+#clint{
+    background-position: -300px 0;
+}
+
+#hulk{
+    background-position: -450px 0;
+}
+
+#thor{
+    background-position: -600px 0;
+}
+
+#widow{
+    background-position: -750px 0;
+}
+
+#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
+    background-position-y: -150px;
+}
+
+footer{
+    color: white;
+    padding: 20px,0px;
+    text-align: center;
+}
