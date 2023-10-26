@@ -33,6 +33,14 @@ header {
     justify-content: center;
 }
 
+#character_nav{
+    background-color: blue;
+    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 .characters li {
     height: 220px;
     margin: 10px 8px;
