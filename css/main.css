@@ -27,6 +27,10 @@ header {
 .characters {
     list-style-type: none;
     padding: 0px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .characters li {
@@ -35,6 +39,12 @@ header {
     background-color: black;
     text-align: left;
     cursor: pointer;
+    transition: box-shadow 0.2s ease-out;
+    box-shadow: 0 155px 0 0 rgb(255,0,0) inset;
+}
+
+.characters li:hover{
+    box-shadow: 0 220px 0 0 rgb(255,0,0) inset;
 }
 
 .characters li h5{
@@ -83,3 +93,4 @@ footer{
     padding: 20px,0px;
     text-align: center;
 }
+
